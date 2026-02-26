@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: white;
+}
+
+/* NAVBAR */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #1e293b;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+/* SECTIONS */
+section {
+  padding: 100px 20px;
+  text-align: center;
+  min-height: 100vh;
+}
+
+#home {
+  background: linear-gradient(to right, #4f46e5, #9333ea);
+}
+
+#about {
+  background: linear-gradient(to right, #0f172a, #1e293b);
+}
+
+#skills {
+  background: linear-gradient(to right, #334155, #475569);
+}
+
+#projects {
+  background: linear-gradient(to right, #7c3aed, #2563eb);
+}
+
+#contact {
+  background: linear-gradient(to right, #1e40af, #1e3a8a);
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* SKILLS */
+.skills-list span {
+  display: inline-block;
+  background: #38bdf8;
+  color: black;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+/* PROJECTS */
+.project-box {
+  background: #1e293b;
+  padding: 20px;
+  margin: 15px auto;
+  width: 80%;
+  border-radius: 10px;
+}
+
+/* CONTACT */
+input, textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  padding: 10px 20px;
+  background: #38bdf8;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0ea5e9;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+}
